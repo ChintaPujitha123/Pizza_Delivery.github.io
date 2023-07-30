@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Delivery App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pizza Delivery Application</h1>
+  </header>
+  <main>
+    <section id="pizzaMenu">
+      <h2>Menu</h2>
+      <div class="pizzaItem" data-name="Margherita" data-price="9.99">
+        <h3>Margherita</h3>
+        <p>A classic cheese and tomato pizza</p>
+        <button class="orderButton">Order Now</button>
+      </div>
+      <!-- Add more pizza items here -->
+    </section>
+
+    <section id="cart">
+      <h2>Cart</h2>
+      <ul id="cartItems"></ul>
+      <p>Total: $<span id="cartTotal">0.00</span></p>
+      <button id="checkoutButton">Checkout</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
